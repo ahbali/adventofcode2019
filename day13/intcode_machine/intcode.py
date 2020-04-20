@@ -1,3 +1,6 @@
+# import logging
+
+
 class Program:
     def __init__(self, program=[]):
         self.program = program
@@ -207,6 +210,7 @@ class Program:
                 self.opcode_two(mode)
             elif opcode == 3:
                 # print("opcode 3")
+                # logging.warning("hello from input")
                 self.opcode_three(mode)
             elif opcode == 4:
                 # print("opcode 4")
